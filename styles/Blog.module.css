@@ -1,0 +1,42 @@
+@font-face {
+  font-family: 'OpenSans';
+  src: url('../asset/OpenSans/OpenSans-Light.ttf');
+  src: url('../asset/OpenSans/OpenSans-Medium.ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+.grid {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  max-width: 800px;
+  margin: 3rem auto;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  margin-bottom: 3rem;
+}
+.title {
+  font-family: OpenSans, sans-serif;
+  font-weight: 400;
+}
+.paragraf {
+  font-family: OpenSans, sans-serif;
+  font-weight: 300;
+}
+.button{
+  background-color:black;
+  color:white;
+  width: fit-content;
+  padding: 5px;
+
+}
+@media (max-width: 600px) {
+  .grid {
+    width: 80%;
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+.grid {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  max-width: 800px;
+  margin: 3rem auto;
+}
+
+
+@media (max-width: 600px) {
+  .grid {
+    width: 80%;
+    flex-direction: column;
+  }
+}
