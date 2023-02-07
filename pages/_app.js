@@ -17,7 +17,10 @@ const oxygen = Oxygen({
 })
 
 export default function MyApp({ Component, pageProps }) {
-  return<main className={oxygen.className}>
-  <Component {...pageProps} />
-</main>
+ 
+  return ( 
+      <main className={oxygen.className}>
+          <Component {...pageProps} />
+       </main>
+    )
 }
