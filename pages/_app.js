@@ -11,11 +11,13 @@
 import "../styles/globals.css";
 import { Oxygen} from '@next/font/google'
 
-const ubuntu = Oxygen({
+const oxygen = Oxygen({
   weight: '400',
   variable: '--oxygen-font',
 })
 
 export default function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />;
+  return<main className={oxygen.className}>
+  <Component {...pageProps} />
+</main>
 }
